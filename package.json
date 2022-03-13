@@ -1,0 +1,25 @@
+{
+  "name": "digitizeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss ./src/css/tailwind.css -o ./public/bulid/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erfanmoulaee/Digitizeapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erfanmoulaee/Digitizeapp/issues"
+  },
+  "homepage": "https://github.com/erfanmoulaee/Digitizeapp#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.23"
+  }
+}
